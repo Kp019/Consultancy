@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@theme {
+  /* button primary */
+  --color-button-primary: #38332e;
+  --color-button-primary-hover: #4b453e;
+  --color-button-primary-active: #5c564f;
+  --color-button-primary-text: #ffffff;
+
+  /* button secondary */
+  --color-button-secondary: transparent;
+  --color-button-secondary-hover: #fff;
+  --color-button-secondary-active: #fff;
+  --color-button-secondary-text: #ffffff;
+  --color-button-secondary-text-hover: #38332e;
+
+  /* button success */
+  --color-button-success: #16a34a;
+  --color-button-success-text: #ffffff;
+
+  /* button warning */
+  --color-button-warning: #f59e0b;
+  --color-button-warning-text: #ffffff;
+
+  /* button danger */
+  --color-button-danger: #dc2626;
+  --color-button-danger-text: #ffffff;
+
+  /* button info */
+  --color-button-info: #0ea5e9;
+  --color-button-info-text: #ffffff;
+
+  /* background Primary */
+  --color-background-primary: #38332e;
+}
