@@ -28,7 +28,7 @@ const Footer = lazy(() =>
 );
 
 export const Home = () => {
-  const { isLoading, progress } = usePageLoader();
+  const { isLoading } = usePageLoader();
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -42,7 +42,7 @@ export const Home = () => {
   }, []);
   return (
     <div className="font-sans">
-      <PageLoader isLoading={isLoading} progress={progress} />
+      <PageLoader isLoading={isLoading} />
       <div
         className={`fixed z-50 top-0 w-full px-4 sm:px-6 md:px-8 lg:px-10 py-3 sm:py-4 transition-all duration-300 ${
           isScrolled ? "bg-white shadow-md" : "bg-transparent"

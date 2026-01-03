@@ -2,10 +2,9 @@ import { useEffect, useState } from "react";
 
 interface PageLoaderProps {
   isLoading: boolean;
-  progress?: number;
 }
 
-export const PageLoader = ({ isLoading, progress = 0 }: PageLoaderProps) => {
+export const PageLoader = ({ isLoading }: PageLoaderProps) => {
   const [shouldRender, setShouldRender] = useState(isLoading);
   const [isVisible, setIsVisible] = useState(isLoading);
 
