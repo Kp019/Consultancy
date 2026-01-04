@@ -43,7 +43,7 @@ export const Projects = () => {
       <section className="relative h-[70vh] md:h-[80vh] w-full flex items-end justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/public/images/Hero Construction 1920x1080.webp"
+            src="/images/Hero Construction 1920x1080.webp"
             alt="Projects Hero"
             className="w-full h-full object-cover"
           />
